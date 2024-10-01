@@ -20,7 +20,8 @@ const nameList = (data) => {
             "py-2",
             "list-none",
             "cursor-pointer",
-            "font-semibold"
+            "font-semibold",
+            "w-fit"
         );
         li.textContent = user.name;
         li.addEventListener("click", () => {
